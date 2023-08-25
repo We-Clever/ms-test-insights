@@ -7,6 +7,7 @@
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:staged": "npm test --findRelatedTests",
+    "lint": "eslint 'src/**' --fix",
     "prepare": "husky install"
   },
   "keywords": [],
